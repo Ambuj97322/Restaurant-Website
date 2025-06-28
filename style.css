@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 html, body {
     height: 100%;
@@ -120,7 +120,7 @@ body {
     background: linear-gradient(135deg, #fff8f0 0%, #ffe5b4 100%);
 }
 header, footer {
-    background: linear-gradient(90deg, #b87333 0%, #ffd700 100%);
+    background: linear-gradient(90deg, #b87333 0%, #6d5e0d 100%);
 }
 .section-title, .menu-category, .menu-item h3, .service-card h4, header h1, .hero-content h2, .btn {
     font-family: 'Playfair Display', serif;
@@ -128,19 +128,16 @@ header, footer {
 }
 header {
     background: linear-gradient(90deg, #8d5524 0%, #ffd700 100%);
-    padding: 36px 0 24px 0;
+    padding: 2.5rem  2.4rem;
     text-align: center;
-    box-shadow: 0 2px 16px rgba(184,115,51,0.13);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
 }
 body {
-    padding-top: 120px; /* Adjust for fixed header height */
+    padding-top: 120px; 
 }
 @media (max-width: 900px) {
     header {
@@ -157,8 +154,8 @@ body {
     }
 }
 header h1 {
-    font-size: 3.8rem;
-    color: #fff8e1;
+    font-size: 4rem;
+    color: #644d00;
     text-shadow: 3px 3px 18px #b87333;
 }
 .logo-anim {
